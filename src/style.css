@@ -1,9 +1,5 @@
-label {
-  display: block;
-}
-
-fieldset + label {
-  margin: 10px;
+.margin:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 fieldset {
